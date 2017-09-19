@@ -13,6 +13,8 @@
 @property (nonatomic,assign) int sum;
 @property (nonatomic,strong) TestClass *testClass;
 
+-(void)sayHello;
+
 @end
 
 @implementation ViewController
@@ -25,6 +27,13 @@
     int a = 2;
     int b = 4;
     self.sum = a * b;
+    
+    
+    [self sayHello];
+}
+
+- (void)sayHello {
+    NSLog(@"Hello");
 }
 
 
