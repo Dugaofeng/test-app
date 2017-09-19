@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (nonatomic,assign) int sum;
+
 @end
 
 @implementation ViewController
@@ -17,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    int a = 2;
+    int b = 4;
+    self.sum = a * b;
 }
 
 
