@@ -13,6 +13,8 @@
 @property (nonatomic,assign) int sum;
 @property (nonatomic,strong) TestClass *testClass;
 
+-(void)sayByebye;
+
 @end
 
 @implementation ViewController
@@ -25,8 +27,13 @@
     int a = 2;
     int b = 4;
     self.sum = a * b;
+    
+    [self sayByebye];
 }
 
+- (void)sayByebye {
+    NSLog(@"Byebye");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
