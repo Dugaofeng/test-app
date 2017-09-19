@@ -14,6 +14,7 @@
 @property (nonatomic,strong) TestClass *testClass;
 
 -(void)sayHello;
+-(void)sayByebye;
 
 @end
 
@@ -30,15 +31,16 @@
     
     
     [self sayHello];
+    [self sayByebye];
 }
 
 - (void)sayHello {
     NSLog(@"Hello");
 }
-
 - (void)sayByebye {
     NSLog(@"Byebye");
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
