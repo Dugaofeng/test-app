@@ -36,6 +36,9 @@
     NSLog(@"Hello");
 }
 
+- (void)sayByebye {
+    NSLog(@"Byebye");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
