@@ -31,10 +31,6 @@
     
     
     
-    
-    
-    
-    
     [self sayHello];
     [self sayByebye];
 }
