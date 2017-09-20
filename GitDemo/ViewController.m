@@ -30,6 +30,8 @@
     self.sum = a * b;
     
     
+    
+    
     [self sayHello];
     [self sayByebye];
 }
